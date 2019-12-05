@@ -32,6 +32,7 @@
   body{
   background: linear-gradient(to left, #7b4397, #dc2430);
   }
+  
   </style>
 </head>
 
@@ -64,14 +65,15 @@
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
             <h1 class="mb-5">Log in</h1>
-          </div>
-            <form method = "post" action="login_auth.php">
+			<form method = "post" action="login_auth.php">
+			
                 <input class="form-control" type="text" placeholder="User Name" name="usrName">
                 <input class="form-control" type="password" placeholder="Password" name="usrPassword">
 				<br>
 			    <input class="btn btn-outline btn-xl js-scroll-trigger" type="submit" name="loginButton" value="Login">
-				
-            </form>  
+            </form> 
+          </div>
+ 
         </div>
         <div class="col-lg-5 my-auto">
           <div class="device-container">

@@ -62,7 +62,6 @@
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
             <h1 class="mb-5">Sign up</h1>
-          </div>
 			<form method = "post" action="signup_auth.php">
                     <input class="form-control" type="text" placeholder="User Name" name="usrName">
                     <input class="form-control" type="password" placeholder="Password" name="firstUsrPassword">
@@ -70,6 +69,8 @@
 					<br>
                     <input class="btn btn-outline btn-xl js-scroll-trigger" type="submit" name="createButton" value="Create Account">
             </form>
+          </div>
+
         </div>
         <div class="col-lg-5 my-auto">
           <div class="device-container">
